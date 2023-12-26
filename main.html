@@ -10,7 +10,9 @@
 
     {% for category, html_table in data.items() %}
         <h2>{{ category }}</h2>
-        {{ html_table|safe }}
+        <table border="1">
+            {{ html_table|safe }}
+        </table>
     {% endfor %}
 </body>
 </html>
