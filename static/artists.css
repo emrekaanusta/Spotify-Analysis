@@ -115,3 +115,8 @@ td.album-col img {
 .table-bordered {
     border-spacing: 0;
 }
+
+.year-keeper{
+    font-weight: bold;
+    color: #FFFFFF !important;
+}

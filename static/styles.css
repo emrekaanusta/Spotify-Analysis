@@ -25,7 +25,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: var(--primary-bg-color); /* Bootstrap primary color on hover */
+    color: black; /* Bootstrap primary color on hover */
 }
 
 .header-writing {
@@ -124,4 +124,20 @@ td.album-col img {
 
 .description{
     font-size: 20px;
+}
+
+.dropdown-item:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+#yearDropdown:hover {
+    color: black;
+}
+
+.year-keeper{
+    font-weight: bold;
+    color: #FFFFFF !important;
 }

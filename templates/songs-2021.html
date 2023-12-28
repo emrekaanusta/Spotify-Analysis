@@ -15,10 +15,10 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand header-writing" href="{{ url_for('index') }}">
+            <a class="navbar-brand header-writing" href="{{ url_for('index2021') }}">
                 <img src="static\spotiylizer.png" alt="Image" height="30" class="mr-2">
             </a>
-            <a class="navbar-brand header-writing" href="{{ url_for('index') }}">Spotilyzer</a>
+            <a class="navbar-brand header-writing" href="{{ url_for('index2021') }}">Spotilyzer</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,16 +36,16 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled year-keeper" id="selectedYear">Overall History</span>
+                        <span class="nav-link disabled year-keeper" id="selectedYear">2021 History</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('artists') }}">Artists</a>
+                        <a class="nav-link" href="{{ url_for('artists2021') }}">Artists</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('songs') }}">Songs</a>
+                        <a class="nav-link" href="{{ url_for('songs2021') }}">Songs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('albums') }}">Albums</a>
+                        <a class="nav-link" href="{{ url_for('albums2021') }}">Albums</a>
                     </li>
                 </ul>
             </div>
@@ -68,91 +68,91 @@
                     <tr>
                         <td>1</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/ultra.jpg" alt="Cruel World Picture" height="100"></td>
+                        <td><img src="static/song images/chemtrails.jpg" alt="Chemtrails Picture" height="100"></td>
                         <td>{{ top_listened_songs[1][0] }}</td>
                         <td>{{ top_listened_songs[1][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/6ayKgleoMF26lvU1Z7wVm7" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/7bPWdJgx8vek7S5i5yAtvG" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
                     <tr>
                         <td>2</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/norman.jpg" alt="Venice Bitch Picture" height="100"></td>
+                        <td><img src="static/album images/forget.jpg" alt="Small things Picture" height="100"></td>
                         <td>{{ top_listened_songs[2][0] }}</td>
                         <td>{{ top_listened_songs[2][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/3hwQhakFwm9soLEBnSDH17" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/5RySo0AAUR0reTHSCvb6HC" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
                     <tr>
                         <td>3</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/born.jpg" alt="Born to die Picture" height="100"></td>
+                        <td><img src="static/song images/nicalibras.jpg" alt="Nica libras Picture" height="100"></td>
                         <td>{{ top_listened_songs[3][0] }}</td>
                         <td>{{ top_listened_songs[3][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/2wMby9pciuGUIP8q7y4Yn6" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/5eSH7Aubn6Ol80ynF4MV2L" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
                     <tr>
                         <td>4</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/norman.jpg" alt="California Picture" height="100"></td>
+                        <td><img src="static/album images/forget.jpg" alt="She treats me well Picture" height="100"></td>
                         <td>{{ top_listened_songs[4][0] }}</td>
                         <td>{{ top_listened_songs[4][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/7oTE1KmtU2ml9zBhv9Reao" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/2Viw81MZJPsOjODAz4A5nW" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
                     <tr>
                         <td>5</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/pure.jpg" alt="Ribs Picture" height="100"></td>
+                        <td><img src="static/album images/forget.jpg" alt="River in your mouth Picture" height="100"></td>
                         <td>{{ top_listened_songs[5][0] }}</td>
                         <td>{{ top_listened_songs[5][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/2MvvoeRt8NcOXWESkxWn3g" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/4Uru57SoQpHBacQVhfcpdC" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
                     <tr>
                         <td>6</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/born.jpg" alt="Off to the races Picture" height="100"></td>
+                        <td><img src="static/album images/ultra.jpg" alt="Cruel world Picture" height="100"></td>
                         <td>{{ top_listened_songs[6][0] }}</td>
                         <td>{{ top_listened_songs[6][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/6W6EcslYX6aPakNdE0mgOb" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/6ayKgleoMF26lvU1Z7wVm7" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
                     <tr>
                         <td>7</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/midnights.jpg" alt="Snow on the beach Picture" height="100"></td>
+                        <td><img src="static/album images/queenofpeace.jpg" alt="Queen Of Peace Picture" height="100"></td>
                         <td>{{ top_listened_songs[7][0] }}</td>
                         <td>{{ top_listened_songs[7][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/1wtOxkiel43cVs0Yux5Q4h" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/6WRjufZUoxjaUNKOJ6QhWp" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
                     <tr>
                         <td>8</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/video games.jpg" alt="Video games Picture" height="100"></td>
+                        <td><img src="static/song images/missyou.jpg" alt="I Miss You Picture" height="100"></td>
                         <td>{{ top_listened_songs[8][0] }}</td>
                         <td>{{ top_listened_songs[8][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/5xTEkzHycz81QTcqCS9oVv" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/6NdG17SJBXKJeYS67f7E74" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
                     <tr>
                         <td>9</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/melo.jpg" alt="Green light Picture" height="100"></td>
+                        <td><img src="static/album images/forget.jpg" alt="Time Is Dancing Picture" height="100"></td>
                         <td>{{ top_listened_songs[9][0] }}</td>
                         <td>{{ top_listened_songs[9][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/6ie2Bw3xLj2JcGowOlcMhb" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/0SjtVyfdl77VKgd8yrvsWJ" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
                     <tr>
                         <td>10</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/song images/born.jpg" alt="National anthem Picture" height="100"></td>
+                        <td><img src="static/song images/how.jpg" alt="How Picture" height="100"></td>
                         <td>{{ top_listened_songs[10][0] }}</td>
                         <td>{{ top_listened_songs[10][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/track/5JyDveG5JnK2PqEXtETUp1" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/track/6mAuw7R6u4vlNneuBgnC8K" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                    
                     </tr>
 

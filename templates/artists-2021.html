@@ -15,10 +15,10 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand header-writing" href="{{ url_for('index') }}">
+            <a class="navbar-brand header-writing" href="{{ url_for('index2021') }}">
                 <img src="static\spotiylizer.png" alt="Image" height="30" class="mr-2">
             </a>
-            <a class="navbar-brand header-writing" href="{{ url_for('index') }}">Spotilyzer</a>
+            <a class="navbar-brand header-writing" href="{{ url_for('index2021') }}">Spotilyzer</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,16 +36,16 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link disabled year-keeper" id="selectedYear">Overall History</span>
+                        <span class="nav-link disabled year-keeper" id="selectedYear">2021 History</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('artists') }}">Artists</a>
+                        <a class="nav-link" href="{{ url_for('artists2021') }}">Artists</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('songs') }}">Songs</a>
+                        <a class="nav-link" href="{{ url_for('songs2021') }}">Songs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('albums') }}">Albums</a>
+                        <a class="nav-link" href="{{ url_for('albums2021') }}">Albums</a>
                     </li>
                 </ul>
             </div>
@@ -78,55 +78,55 @@
                     <tr>
                         <td>2</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/artist images/taylor.jpg" alt="Taylor Picture" height="100"></td>
+                        <td><img src="static/artist images/florence.jpg" alt="Florence Picture" height="100"></td>
                         <td>{{ top_listened_artists[2][0] }}</td>
                         <td>{{ top_listened_artists[2][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/artist/1moxjboGR7GNWYIMWsRjgG" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                     
                     </tr>
                     <tr>
                         <td>3</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/artist images/florence.jpg" alt="Florence + The Machine Picture" height="100"></td>
+                        <td><img src="static/artist images/ben.jpg" alt="Ben howard Picture" height="100"></td>
                         <td>{{ top_listened_artists[3][0] }}</td>
                         <td>{{ top_listened_artists[3][1] }}</td>            
-                        <td class="album-col"><a href="https://open.spotify.com/artist/1moxjboGR7GNWYIMWsRjgG" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/artist/5schNIzWdI9gJ1QRK8SBnc" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                 
                     </tr>
                     <tr>
                         <td>4</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/artist images/lorde.jpg" alt="Lorde Picture" height="100"></td>
+                        <td><img src="static/artist images/adele.jpg" alt="Adele Picture" height="100"></td>
                         <td>{{ top_listened_artists[4][0] }}</td>
                         <td>{{ top_listened_artists[4][1] }}</td> 
-                        <td class="album-col"><a href="https://open.spotify.com/artist/163tK9Wjr9P9DmM0AVK7lm" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                     
                     </tr>
                     <tr>
                         <td>5</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/artist images/halsey.jpg" alt="Halsey Picture" height="100"></td>
+                        <td><img src="static/artist images/lorde.jpg" alt="Lorde Picture" height="100"></td>
                         <td>{{ top_listened_artists[5][0] }}</td>
                         <td>{{ top_listened_artists[5][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/artist/163tK9Wjr9P9DmM0AVK7lm" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                     
                     </tr>
                     <tr>
                         <td>6</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/artist images/ben.jpg" alt="Ben Howard Picture" height="100"></td>
+                        <td><img src="static/artist images/marina.jpg" alt="Marina Picture" height="100"></td>
                         <td>{{ top_listened_artists[6][0] }}</td>
                         <td>{{ top_listened_artists[6][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/artist/5schNIzWdI9gJ1QRK8SBnc" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/artist/6CwfuxIqcltXDGjfZsMd9A" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                     
                     </tr>
                     <tr>
                         <td>7</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/artist images/adele.jpg" alt="Adele Picture" height="100"></td>
+                        <td><img src="static/artist images/halsey.jpg" alt="Halsey Picture" height="100"></td>
                         <td>{{ top_listened_artists[7][0] }}</td>
                         <td>{{ top_listened_artists[7][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                     
                     </tr>
                     <tr>
@@ -150,10 +150,10 @@
                     <tr>
                         <td>10</td>
                         <!-- Assuming the picture URL is in the second column -->
-                        <td><img src="static/artist images/mitski.jpg" alt="Mitski Picture" height="100"></td>
+                        <td><img src="static\artist images\taylor.jpg" alt="Taylor Picture" height="100"></td>
                         <td>{{ top_listened_artists[10][0] }}</td>
                         <td>{{ top_listened_artists[10][1] }}</td>
-                        <td class="album-col"><a href="https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
+                        <td class="album-col"><a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02" target="_blank"><img src="static\spotift_transparent.png" alt="Spotify Logo"></a></td>
                     
                     </tr>
 
