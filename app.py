@@ -9,7 +9,7 @@ app = Flask(__name__, static_folder='static')
 def fetch_top_listened_data(category, year):
     # Adjust file_path based on the selected year
     if year == 'all':
-        file_path = f'top_listened_{category}_data.csv'
+        file_path = f'data/top_listened_{category}_data.csv'
         df = pd.read_csv(file_path)
         # Convert DataFrame to a list of lists
         data_list = df.values.tolist()
@@ -18,7 +18,7 @@ def fetch_top_listened_data(category, year):
         data_list.insert(0, header)
         return data_list
     else:
-        file_path = f'top_listened_{category}_data_{year}.csv'
+        file_path = f'data/top_listened_{category}_data_{year}.csv'
         df = pd.read_csv(file_path)
         # Convert DataFrame to a list of lists
         data_list = df.values.tolist()
