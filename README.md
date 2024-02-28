@@ -10,7 +10,7 @@ You can see my website on your localhost following these steps:
 
 2- Then change your directory to the current cloned directory. You can do this by using -cd- commands or through searching your computer. I suggest using VS Code in this step.
 
-3- Then all you need to do is running "app.py" file. You can do this by simply typing "python app.py" to your console! But if these 3 steps seems loooooong to you, here is a video preview of my site.
+3- Then all you need to do is running "app.py" file. You can do this by simply typing "python app.py" to your console! Here is a video preview of my site.
 
 
 https://github.com/emrekaanusta/Spotilyzer/assets/110676789/a27b1acb-6e98-4c06-a393-dfcac529e6cb
